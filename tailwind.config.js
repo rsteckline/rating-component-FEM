@@ -13,7 +13,11 @@ module.exports = {
     fontFamily: {
       overpass: ["Overpass", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "star-icon": 'url("images/icon-star.svg")',
+      },
+    },
   },
   plugins: [],
 };
