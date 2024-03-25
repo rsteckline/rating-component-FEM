@@ -41,9 +41,10 @@
         class="rating-state group m-4 h-card-mobile w-full rounded-2xl bg-gradient-to-b from-dark-blue to-very-dark-blue sm:h-card-desktop sm:w-card-desktop"
       >
         <!-- Rating state start -->
-        <section class="flex flex-col gap-6 p-6">
+
+        <section class="hidden flex-col justify-between h-full p-6">
           <div
-            class="bg-lighter-dark-blue h-11 aspect-square rounded-full self-start bg-star-icon bg-no-repeat bg-center"
+            class="bg-lighter-dark-blue h-12 aspect-square rounded-full self-start bg-star-icon bg-no-repeat bg-center"
           ></div>
           <div>
             <h1 class="text-white font-bold text-2xl mb-2">How did we do?</h1>
@@ -56,7 +57,7 @@
           <form action="#" method="post">
             <ul class="flex justify-between">
               <li
-                class="bg-lighter-dark-blue h-11 aspect-square rounded-full hover:bg-orange hover:text-white"
+                class="bg-lighter-dark-blue h-12 aspect-square rounded-full hover:bg-orange hover:text-white"
               >
                 <label
                   for="rating-1"
@@ -71,7 +72,7 @@
                 />
               </li>
               <li
-                class="bg-lighter-dark-blue h-11 aspect-square rounded-full hover:bg-orange hover:text-white"
+                class="bg-lighter-dark-blue h-12 aspect-square rounded-full hover:bg-orange hover:text-white"
               >
                 <label
                   for="rating-2"
@@ -86,7 +87,7 @@
                 />
               </li>
               <li
-                class="bg-lighter-dark-blue h-11 aspect-square rounded-full hover:bg-orange hover:text-white"
+                class="bg-lighter-dark-blue h-12 aspect-square rounded-full hover:bg-orange hover:text-white"
               >
                 <label
                   for="rating-3"
@@ -101,7 +102,7 @@
                 />
               </li>
               <li
-                class="bg-lighter-dark-blue h-11 aspect-square rounded-full hover:bg-orange hover:text-white"
+                class="bg-lighter-dark-blue h-12 aspect-square rounded-full hover:bg-orange hover:text-white"
               >
                 <label
                   for="rating-4"
@@ -116,7 +117,7 @@
                 />
               </li>
               <li
-                class="bg-lighter-dark-blue h-11 aspect-square rounded-full hover:bg-orange hover:text-white"
+                class="bg-lighter-dark-blue h-12 aspect-square rounded-full hover:bg-orange hover:text-white"
               >
                 <label
                   for="rating-5"
@@ -141,12 +142,34 @@
         </section>
         <!-- Rating state end -->
         <!-- Thank you state start -->
-        <section class="hidden">
-          <p>You selected 4 out of 5</p>
+        <section
+          class="flex flex-col items-center px-4 py-8 h-full justify-between"
+        >
+          <img src="assets/illustration-thank-you.svg" alt="Image of a phone" />
+          <p class="text-orange bg-lighter-dark-blue rounded-full py-2 px-4">
+            You selected 4 out of 5
+          </p>
 
-          <h1>Thank you!</h1>
+          <div>
+            <h1 class="text-white text-2xl font-bold text-center mb-2">
+              Thank you!
+            </h1>
+            <p class="text-center">
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don't hesitate to get in touch!
+            </p>
+          </div>
         </section>
+        <!-- Thank you state end -->
       </div>
     </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.github.com/rsteckline">Bobby Steckline</a>.
+    </footer>
   </body>
 </html>

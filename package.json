@@ -1,6 +1,18 @@
 {
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "A project utilizing Tailwind CSS to implement an interactive rating component.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/main.css -o ./public/styles.css",
+    "watch-css": "npx tailwindcss -i ./src/main.css -o ./public/styles.css --watch"
+  },
+  "author": "Bobby Steckline",
+  "license": "ISC",
   "dependencies": {
-    "caniuse-lite": "^1.0.30001610",
+    "caniuse-lite": "^1.0.30001610"
+  },
+  "devDependencies": {
     "tailwindcss": "^3.4.3"
   }
 }
