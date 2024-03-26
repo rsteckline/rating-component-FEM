@@ -618,12 +618,20 @@ video {
   justify-content: space-between;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-3 {
+  gap: 2.5rem;
+}
+
 .self-start {
   align-self: flex-start;
 }
 
 .rounded-2xl {
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 .rounded-full {
@@ -677,7 +685,7 @@ video {
 }
 
 .p-6 {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .px-4 {
@@ -766,10 +774,10 @@ html {
 
 @media (min-width: 410px) {
   .sm\:h-card-desktop {
-    height: 410px;
+    height: 400px;
   }
 
   .sm\:w-card-desktop {
-    width: 410px;
+    width: 400px;
   }
 }
