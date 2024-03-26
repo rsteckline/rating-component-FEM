@@ -36,26 +36,19 @@ ratingButtons.forEach((ratingButton) => {
   });
 });
 
-// submitButton.addEventListener("click", (event) => {
-//   event.preventDefault();
-//   const checkedRatingButton = document.querySelector(
-//     "input[name='rating']:checked"
-//   );
+submitButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  const checkedRatingButton = document.querySelector(
+    "input[name='rating']:checked"
+  );
 
-//   if (checkedRatingButton !== null) {
-//     selectedRatingSpan.textContent = checkedRatingButton.value;
+  if (checkedRatingButton !== null) {
+    selectedRatingSpan.textContent = checkedRatingButton.value;
 
-//     ratingSection.classList.add("opacity-0");
+    ratingComponent.classList.add("hidden");
+    ratingComponent.classList.remove("flex");
 
-//     setTimeout(() => {
-//       ratingSection.classList.add("hidden");
-//       ratingSection.classList.remove("flex");
-
-//       thankYouSection.classList.add("flex");
-//       thankYouSection.classList.remove("hidden");
-
-//       document.body.offsetHeight;
-//       thankYouSection.classList.remove("opacity-0");
-//     }, 1000);
-//   }
-// });
+    thankYouComponent.classList.add("flex");
+    thankYouComponent.classList.remove("hidden");
+  }
+});
