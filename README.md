@@ -14,7 +14,7 @@
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://rating-component-fem-omega.vercel.app/)
+- Live Site URL: [Vercel](https://rating-component-fem-omega.vercel.app/)
 
 ### Built with
 - Mobile-first design
