@@ -14,7 +14,7 @@
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://rsteckline.github.io/rating-component-FEM/)
+- Live Site URL: [GitHub Pages](https://rating-component-fem-omega.vercel.app/)
 
 ### Built with
 - Mobile-first design
